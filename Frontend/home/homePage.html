@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html data-theme="cupcake">
+<html data-theme="emerald">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>🍩 PixelDonuts</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+    .pixel-donus{
+        font-family: 'Love Ya Like A Sister',fantasy;
+    }
+</style>
 <body>
+    <div class="content">
+        <div class="navbar bg-primary" class = "flex justify-center">
+            <div class = "flex-1">
+                <h3 class="btn btn-ghost normal-case text-3xl"><span class="pixel-donus">🍩 PixelDonuts</span></h3>
+            </div>
+            <div class = "flex-1">
+                <input type="text" placeholder="Search" class="input input-bordered w-full max-w-xs">
+            </div>
+            <label class="tabindex=0" class="btn btn-ghost btn-circle"></label>
+        </div>
+    </div>
 </body>
 </html>
